@@ -1,7 +1,7 @@
 lkopticalflow
 =============
 
-Implementation is based on the following paper (section 2.4):
+Matlab implementation of Lucas Kanade Optical Flow algorithm. Implementation is based on the following paper (section 2.4):
 http://robots.stanford.edu/cs223b04/algo_tracking.pdf
 
 Usage:
@@ -16,3 +16,4 @@ levels: number of levels to use for lk algorithm. recommended value : 2 to 5.
 
 Outputs:
 V: 2xN array containing the output points in image J. Same format as V.
+
